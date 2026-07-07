@@ -26,7 +26,6 @@ DIVIDER = Fore.CYAN + "─" * 58
 # ---------------------- UI FUNCTIONS ---------------------- #
 
 def clear_screen():
-    def clear_screen():
         if os.getenv("TERM"):
             os.system("cls" if os.name == "nt" else "clear")
 
